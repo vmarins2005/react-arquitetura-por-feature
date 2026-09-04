@@ -51,7 +51,7 @@ enumerados. Nunca `export *`.
 | Alternativa | Prós | Contras | Por que não |
 |---|---|---|---|
 | Por tipo de arquivo | Familiar; zero decisão inicial | Mudança espalhada; nenhuma fronteira; `utils/` vira depósito | É o problema que originou este ADR |
-| FSD canônico completo | Vocabulário conhecido; escala para monorepo grande | Seis camadas com pouco conteúdo; `entities` vazia; cerimônia alta para time pequeno | Antecipação de estrutura — o mesmo erro do projeto [quando-abstrair](https://github.com/vmarins2005/quando-abstrair) |
+| FSD canônico completo | Vocabulário conhecido; escala para monorepo grande | Seis camadas com pouco conteúdo; `entities` vazia; cerimônia alta para time pequeno | Antecipação de estrutura — o mesmo erro do projeto [react-quando-abstrair](https://github.com/vmarins2005/react-quando-abstrair) |
 | Monorepo com um pacote por feature | Fronteira garantida pelo `package.json` | Overhead de build e versionamento; refatorar entre pacotes é caro | Desproporcional para uma aplicação |
 | Feature-based com FSD reduzido | Fronteiras reais; três camadas; caminho de evolução claro | Exige disciplina sobre o que é `shared` | **Escolhido** |
 
