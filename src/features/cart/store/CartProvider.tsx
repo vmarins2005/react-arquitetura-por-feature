@@ -17,7 +17,7 @@ import { addItem, cartTotal, EMPTY_CART, itemCount, removeItem, type Cart, type 
  * Client Component PODE receber Server Components via `children`, e é assim que
  * se mantém a fronteira baixa mesmo com um provider no topo.
  *
- * Ver o projeto `react-performance-no-next` para o custo medido disso.
+ * Ver o projeto `react-nextjs-performance` para o custo medido disso.
  */
 
 type CartContextValue = {
